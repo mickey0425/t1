@@ -1,0 +1,169 @@
+/*------------------------------Global variables*/
+
+body {
+    font-family: Microsoft JhengHei;
+    
+}
+
+.clear {
+    clear: both;
+}
+
+p {
+    color: #707070;
+
+}
+a {
+    color: #707070;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+
+/*---------------------------------------header*/
+
+#header {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 180px;
+}
+
+.logo {
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.menu ul {
+    margin-right: 70px; 
+   text-align: center;
+}
+
+.menu li {
+    float: left;
+    display: inline;
+    list-style-type: none;
+    margin :  75px 75px ;
+}
+
+
+
+/*-------------------------------------content1*/
+
+#content1 {
+
+    width: 100%;
+    height: 500px;
+}
+
+.content1-left {
+    width: 400px;
+    margin: 80px 10px auto 330px;
+    float: left;
+
+
+    /*background-color: #aaaaaa;*/
+}
+
+.content1-left h5 {
+    margin-left: 50px;
+    color: #707070;
+}
+
+
+
+.content1-left h1 {
+    font-size: 60px;
+}
+
+.content1-left h3 {
+    font-size: 25px;
+    line-height: 28px;
+}
+
+
+.content1-left img {
+    width: 45%;
+    height: 15%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.content1-right {
+
+    float: left;
+    /*background-color: #707070;*/
+}
+
+.content1-right img {
+    height: 80%;
+    width: 80%;
+    margin: 50px;
+}
+
+.content1-text p {
+	line-height: 25px;
+}
+
+
+
+/*-------------------------------------content2*/
+
+#content2 {
+    width: 100%;
+    height: 700px;
+}
+
+.content2-left {
+    width: 400px;
+    margin: 80px 10px 150px 330px;
+    float: left;
+    /*background-color: #878787;*/
+}
+
+.content2-left h3 {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.content2-right {
+    width: 400px;
+    margin: 115px 10px 150px 50px;
+    float: left;
+    /*background-color: #878787;*/
+}
+
+.content2-text p {
+padding-top: 25px;
+line-height: 24px;
+}
+
+
+
+/*----------------------------------------footer*/
+
+#footer {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 180px;
+
+}
+
+.footer-text{
+	float: left;
+	margin-top: 75px;
+	margin-left: 180px;
+
+}
+
+.footer-menu {
+    float: right;
+    margin-right: 180px;
+}
+
+.footer-menu i {
+    font-size: 50px;
+    margin :55px 20px 55px auto;
+}
